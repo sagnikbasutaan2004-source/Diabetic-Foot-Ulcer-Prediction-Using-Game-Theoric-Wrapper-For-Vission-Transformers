@@ -1,0 +1,10 @@
+EvoTherm-Adapter vs Baseline — M3 Plantar Thermal Classification
+================================================================================
+Model                  Accuracy   AUC-ROC      ECE   Sensitivity
+────────────────────────────────────────────────────────────────────────────────
+resnet50 [Baseline]      73.53%    0.6289   0.2185       100.00%
+deit_tiny [Baseline]     86.76%    0.9189   0.0939        94.00%
+swinv2_tiny [Baseline]     91.18%    0.9567   0.0675        88.00%
+evo_resnet50 [+EvoAdapter]     77.94%    0.8589   0.1074        90.00%
+evo_deit_tiny [+EvoAdapter]     91.18%    0.9744   0.0415        92.00%
+evo_swinv2_tiny [+EvoAdapter]     91.18%    0.9756   0.0588        94.00%
